@@ -1,0 +1,41 @@
+main {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  border: solid 1px blue;
+  margin-top: 20px;
+}
+.blue {
+  background: blue;
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#blue-first {
+  margin-left: 30px;
+}
+#blue-last {
+  margin-right: 30px;
+}
+.second {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  border: solid 1px blue;
+  margin-top: 20px;
+  background:red;
+}
+.purple {
+  background: purple;
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#puprle-first {
+  margin-left: 30px;
+}
+#puprle-last{
+  margin-right: 30px;
+}
