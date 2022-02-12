@@ -1,0 +1,19 @@
+h1 {
+  color:	#CD5C5C;
+}
+h2 {
+  color: 	#800080;
+}
+.ol {
+  text-decoration: underline;
+  list-style-type: upper-roman;
+}
+.but {
+  color: 	#EE82EE;
+}
+.it {
+  color: 	#EE82EE;
+}
+.deeper {
+  color: 	#EE82EE;
+}
