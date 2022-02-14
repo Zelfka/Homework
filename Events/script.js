@@ -8,6 +8,8 @@ $('.second').click(function(){
 
 $(document).ready(function(){
   $('.third').click(function (){
-    $('button').css('background-color', $('value.input').val());
+    $('button').css('background-color', $ ({
+      text: $('value.input').val()
+    }));
   });
 });
