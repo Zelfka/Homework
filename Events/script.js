@@ -5,6 +5,9 @@ $('.first').on('click', ()=> {
 $('.second').click(function(){
   $('.first').text("done");
 });
-$('.third').click(function(){
-  $('button').css('background-color','red');
+
+$(document).ready(function(){
+  $('.third').click(function (){
+    $('button').css('background-color', $('value:input').val());
+  });
 });
