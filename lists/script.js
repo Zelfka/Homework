@@ -6,5 +6,5 @@ let additionalBlock = {
   title: "Added with javascript",
   text: "This block was added using JavaScript's jQuery library. How awesome!"
 };
-$('body').append($('additionalBlock'),[additionalBlock.title, '<p>',additionalBlock.text, '</p>']);
+$('body').append($('additionalBlock'),['<h3>',additionalBlock.title,'</h3>','<p>',additionalBlock.text, '</p>']);
 
